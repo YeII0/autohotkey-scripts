@@ -5,7 +5,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-;#IfWinNotActive ahk_class CASCADIA_HOSTING_WINDOW_CLASS
+#IfWinNotActive ahk_class CASCADIA_HOSTING_WINDOW_CLASS
 ; Arrows
 !k::Send {UP}       ; i UP          (Cursor up line)
 !j::Send {DOWN}     ; k DOWN            (Cursor down line)
